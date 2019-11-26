@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC022DCD229D3801004DF464 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC022DCC229D3801004DF464 /* AppDelegate.swift */; };
+		FC022DCF229D3801004DF464 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC022DCE229D3801004DF464 /* ViewController.swift */; };
+		FC022DD2229D3801004DF464 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC022DD0229D3801004DF464 /* Main.storyboard */; };
+		FC022DD4229D3802004DF464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC022DD3229D3802004DF464 /* Assets.xcassets */; };
+		FC022DD7229D3802004DF464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC022DD5229D3802004DF464 /* LaunchScreen.storyboard */; };
+		FC022DE2229D3802004DF464 /* coffeeiglooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC022DE1229D3802004DF464 /* coffeeiglooTests.swift */; };
+		FC022DED229D3802004DF464 /* coffeeiglooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC022DEC229D3802004DF464 /* coffeeiglooUITests.swift */; };
+		FC022DFD229D3E2F004DF464 /* meeting.png in Resources */ = {isa = PBXBuildFile; fileRef = FC022DFA229D3E2F004DF464 /* meeting.png */; };
+		FC022DFE229D3E2F004DF464 /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = FC022DFB229D3E2F004DF464 /* happy.png */; };
+		FC022DFF229D3E2F004DF464 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = FC022DFC229D3E2F004DF464 /* heart.png */; };
+		FC022E01229D4068004DF464 /* Screenshot 2019-05-28 at 11.08.45.png in Resources */ = {isa = PBXBuildFile; fileRef = FC022E00229D4067004DF464 /* Screenshot 2019-05-28 at 11.08.45.png */; };
+		FC022E03229D42A7004DF464 /* 5953c5ead084cc163f8b5ae0-750-563.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC022E02229D42A7004DF464 /* 5953c5ead084cc163f8b5ae0-750-563.jpg */; };
+		FC022E05229D4686004DF464 /* starbucks-cold-foam-cappuccino-FT-BLOG0418.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC022E04229D4686004DF464 /* starbucks-cold-foam-cappuccino-FT-BLOG0418.jpg */; };
+		FC022E08229D4CA9004DF464 /* videoblocks-seamless-looping-4k-animation-of-heap-of-blue-ice-cubes-abstract-background_hdmscpqhe_thumbnail-full01.png in Resources */ = {isa = PBXBuildFile; fileRef = FC022E06229D4CA9004DF464 /* videoblocks-seamless-looping-4k-animation-of-heap-of-blue-ice-cubes-abstract-background_hdmscpqhe_thumbnail-full01.png */; };
+		FC022E09229D4CA9004DF464 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FC022E07229D4CA9004DF464 /* download.jpeg */; };
+		FC022E0B229D4D27004DF464 /* kisspng-iced-coffee-ice-cream-tea-frappxe9-coffee-signboard-tea-5a7bfac964dc09.3131697615180745694131 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = FC022E0A229D4D27004DF464 /* kisspng-iced-coffee-ice-cream-tea-frappxe9-coffee-signboard-tea-5a7bfac964dc09.3131697615180745694131 (1).png */; };
+		FC022E4B229D8458004DF464 /* 6117-09053460en_Masterfile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC022E4A229D8458004DF464 /* 6117-09053460en_Masterfile.jpg */; };
+		FC08FB08229E978400DE6C5D /* finance_10-512.png in Resources */ = {isa = PBXBuildFile; fileRef = FC08FB07229E978400DE6C5D /* finance_10-512.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC022DDE229D3802004DF464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC022DC1229D3801004DF464 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC022DC8229D3801004DF464;
+			remoteInfo = coffeeigloo;
+		};
+		FC022DE9229D3802004DF464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC022DC1229D3801004DF464 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC022DC8229D3801004DF464;
+			remoteInfo = coffeeigloo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC022DC9229D3801004DF464 /* coffeeigloo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coffeeigloo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC022DCC229D3801004DF464 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC022DCE229D3801004DF464 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC022DD1229D3801004DF464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC022DD3229D3802004DF464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC022DD6229D3802004DF464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC022DD8229D3802004DF464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC022DDD229D3802004DF464 /* coffeeiglooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coffeeiglooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC022DE1229D3802004DF464 /* coffeeiglooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffeeiglooTests.swift; sourceTree = "<group>"; };
+		FC022DE3229D3802004DF464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC022DE8229D3802004DF464 /* coffeeiglooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coffeeiglooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC022DEC229D3802004DF464 /* coffeeiglooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffeeiglooUITests.swift; sourceTree = "<group>"; };
+		FC022DEE229D3802004DF464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC022DFA229D3E2F004DF464 /* meeting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meeting.png; sourceTree = "<group>"; };
+		FC022DFB229D3E2F004DF464 /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
+		FC022DFC229D3E2F004DF464 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		FC022E00229D4067004DF464 /* Screenshot 2019-05-28 at 11.08.45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2019-05-28 at 11.08.45.png"; sourceTree = "<group>"; };
+		FC022E02229D42A7004DF464 /* 5953c5ead084cc163f8b5ae0-750-563.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5953c5ead084cc163f8b5ae0-750-563.jpg"; sourceTree = "<group>"; };
+		FC022E04229D4686004DF464 /* starbucks-cold-foam-cappuccino-FT-BLOG0418.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "starbucks-cold-foam-cappuccino-FT-BLOG0418.jpg"; sourceTree = "<group>"; };
+		FC022E06229D4CA9004DF464 /* videoblocks-seamless-looping-4k-animation-of-heap-of-blue-ice-cubes-abstract-background_hdmscpqhe_thumbnail-full01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoblocks-seamless-looping-4k-animation-of-heap-of-blue-ice-cubes-abstract-background_hdmscpqhe_thumbnail-full01.png"; sourceTree = "<group>"; };
+		FC022E07229D4CA9004DF464 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
+		FC022E0A229D4D27004DF464 /* kisspng-iced-coffee-ice-cream-tea-frappxe9-coffee-signboard-tea-5a7bfac964dc09.3131697615180745694131 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kisspng-iced-coffee-ice-cream-tea-frappxe9-coffee-signboard-tea-5a7bfac964dc09.3131697615180745694131 (1).png"; sourceTree = "<group>"; };
+		FC022E4A229D8458004DF464 /* 6117-09053460en_Masterfile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6117-09053460en_Masterfile.jpg"; sourceTree = "<group>"; };
+		FC08FB07229E978400DE6C5D /* finance_10-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finance_10-512.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC022DC6229D3801004DF464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC022DDA229D3802004DF464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC022DE5229D3802004DF464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC022DC0229D3801004DF464 = {
+			isa = PBXGroup;
+			children = (
+				FC022DCB229D3801004DF464 /* coffeeigloo */,
+				FC022DE0229D3802004DF464 /* coffeeiglooTests */,
+				FC022DEB229D3802004DF464 /* coffeeiglooUITests */,
+				FC022DCA229D3801004DF464 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC022DCA229D3801004DF464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC022DC9229D3801004DF464 /* coffeeigloo.app */,
+				FC022DDD229D3802004DF464 /* coffeeiglooTests.xctest */,
+				FC022DE8229D3802004DF464 /* coffeeiglooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC022DCB229D3801004DF464 /* coffeeigloo */ = {
+			isa = PBXGroup;
+			children = (
+				FC022DCC229D3801004DF464 /* AppDelegate.swift */,
+				FC022DCE229D3801004DF464 /* ViewController.swift */,
+				FC022DD0229D3801004DF464 /* Main.storyboard */,
+				FC08FB07229E978400DE6C5D /* finance_10-512.png */,
+				FC022E4A229D8458004DF464 /* 6117-09053460en_Masterfile.jpg */,
+				FC022E0A229D4D27004DF464 /* kisspng-iced-coffee-ice-cream-tea-frappxe9-coffee-signboard-tea-5a7bfac964dc09.3131697615180745694131 (1).png */,
+				FC022E07229D4CA9004DF464 /* download.jpeg */,
+				FC022E06229D4CA9004DF464 /* videoblocks-seamless-looping-4k-animation-of-heap-of-blue-ice-cubes-abstract-background_hdmscpqhe_thumbnail-full01.png */,
+				FC022E04229D4686004DF464 /* starbucks-cold-foam-cappuccino-FT-BLOG0418.jpg */,
+				FC022E02229D42A7004DF464 /* 5953c5ead084cc163f8b5ae0-750-563.jpg */,
+				FC022DFB229D3E2F004DF464 /* happy.png */,
+				FC022DFC229D3E2F004DF464 /* heart.png */,
+				FC022DFA229D3E2F004DF464 /* meeting.png */,
+				FC022E00229D4067004DF464 /* Screenshot 2019-05-28 at 11.08.45.png */,
+				FC022DD3229D3802004DF464 /* Assets.xcassets */,
+				FC022DD5229D3802004DF464 /* LaunchScreen.storyboard */,
+				FC022DD8229D3802004DF464 /* Info.plist */,
+			);
+			path = coffeeigloo;
+			sourceTree = "<group>";
+		};
+		FC022DE0229D3802004DF464 /* coffeeiglooTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC022DE1229D3802004DF464 /* coffeeiglooTests.swift */,
+				FC022DE3229D3802004DF464 /* Info.plist */,
+			);
+			path = coffeeiglooTests;
+			sourceTree = "<group>";
+		};
+		FC022DEB229D3802004DF464 /* coffeeiglooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC022DEC229D3802004DF464 /* coffeeiglooUITests.swift */,
+				FC022DEE229D3802004DF464 /* Info.plist */,
+			);
+			path = coffeeiglooUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC022DC8229D3801004DF464 /* coffeeigloo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC022DF1229D3802004DF464 /* Build configuration list for PBXNativeTarget "coffeeigloo" */;
+			buildPhases = (
+				FC022DC5229D3801004DF464 /* Sources */,
+				FC022DC6229D3801004DF464 /* Frameworks */,
+				FC022DC7229D3801004DF464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coffeeigloo;
+			productName = coffeeigloo;
+			productReference = FC022DC9229D3801004DF464 /* coffeeigloo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC022DDC229D3802004DF464 /* coffeeiglooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC022DF4229D3802004DF464 /* Build configuration list for PBXNativeTarget "coffeeiglooTests" */;
+			buildPhases = (
+				FC022DD9229D3802004DF464 /* Sources */,
+				FC022DDA229D3802004DF464 /* Frameworks */,
+				FC022DDB229D3802004DF464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC022DDF229D3802004DF464 /* PBXTargetDependency */,
+			);
+			name = coffeeiglooTests;
+			productName = coffeeiglooTests;
+			productReference = FC022DDD229D3802004DF464 /* coffeeiglooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC022DE7229D3802004DF464 /* coffeeiglooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC022DF7229D3802004DF464 /* Build configuration list for PBXNativeTarget "coffeeiglooUITests" */;
+			buildPhases = (
+				FC022DE4229D3802004DF464 /* Sources */,
+				FC022DE5229D3802004DF464 /* Frameworks */,
+				FC022DE6229D3802004DF464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC022DEA229D3802004DF464 /* PBXTargetDependency */,
+			);
+			name = coffeeiglooUITests;
+			productName = coffeeiglooUITests;
+			productReference = FC022DE8229D3802004DF464 /* coffeeiglooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC022DC1229D3801004DF464 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Liam Cookson";
+				TargetAttributes = {
+					FC022DC8229D3801004DF464 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FC022DDC229D3802004DF464 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FC022DC8229D3801004DF464;
+					};
+					FC022DE7229D3802004DF464 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FC022DC8229D3801004DF464;
+					};
+				};
+			};
+			buildConfigurationList = FC022DC4229D3801004DF464 /* Build configuration list for PBXProject "coffeeigloo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC022DC0229D3801004DF464;
+			productRefGroup = FC022DCA229D3801004DF464 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC022DC8229D3801004DF464 /* coffeeigloo */,
+				FC022DDC229D3802004DF464 /* coffeeiglooTests */,
+				FC022DE7229D3802004DF464 /* coffeeiglooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC022DC7229D3801004DF464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC022DD7229D3802004DF464 /* LaunchScreen.storyboard in Resources */,
+				FC022DD4229D3802004DF464 /* Assets.xcassets in Resources */,
+				FC022DD2229D3801004DF464 /* Main.storyboard in Resources */,
+				FC022E4B229D8458004DF464 /* 6117-09053460en_Masterfile.jpg in Resources */,
+				FC022DFE229D3E2F004DF464 /* happy.png in Resources */,
+				FC022E01229D4068004DF464 /* Screenshot 2019-05-28 at 11.08.45.png in Resources */,
+				FC022DFF229D3E2F004DF464 /* heart.png in Resources */,
+				FC022E0B229D4D27004DF464 /* kisspng-iced-coffee-ice-cream-tea-frappxe9-coffee-signboard-tea-5a7bfac964dc09.3131697615180745694131 (1).png in Resources */,
+				FC08FB08229E978400DE6C5D /* finance_10-512.png in Resources */,
+				FC022E08229D4CA9004DF464 /* videoblocks-seamless-looping-4k-animation-of-heap-of-blue-ice-cubes-abstract-background_hdmscpqhe_thumbnail-full01.png in Resources */,
+				FC022E03229D42A7004DF464 /* 5953c5ead084cc163f8b5ae0-750-563.jpg in Resources */,
+				FC022E09229D4CA9004DF464 /* download.jpeg in Resources */,
+				FC022E05229D4686004DF464 /* starbucks-cold-foam-cappuccino-FT-BLOG0418.jpg in Resources */,
+				FC022DFD229D3E2F004DF464 /* meeting.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC022DDB229D3802004DF464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC022DE6229D3802004DF464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC022DC5229D3801004DF464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC022DCF229D3801004DF464 /* ViewController.swift in Sources */,
+				FC022DCD229D3801004DF464 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC022DD9229D3802004DF464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC022DE2229D3802004DF464 /* coffeeiglooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC022DE4229D3802004DF464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC022DED229D3802004DF464 /* coffeeiglooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC022DDF229D3802004DF464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC022DC8229D3801004DF464 /* coffeeigloo */;
+			targetProxy = FC022DDE229D3802004DF464 /* PBXContainerItemProxy */;
+		};
+		FC022DEA229D3802004DF464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC022DC8229D3801004DF464 /* coffeeigloo */;
+			targetProxy = FC022DE9229D3802004DF464 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC022DD0229D3801004DF464 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC022DD1229D3801004DF464 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC022DD5229D3802004DF464 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC022DD6229D3802004DF464 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC022DEF229D3802004DF464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC022DF0229D3802004DF464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC022DF2229D3802004DF464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXM6FM59CF;
+				INFOPLIST_FILE = coffeeigloo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.coffeeigloo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC022DF3229D3802004DF464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXM6FM59CF;
+				INFOPLIST_FILE = coffeeigloo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.coffeeigloo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC022DF5229D3802004DF464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = coffeeiglooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.coffeeiglooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coffeeigloo.app/coffeeigloo";
+			};
+			name = Debug;
+		};
+		FC022DF6229D3802004DF464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = coffeeiglooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.coffeeiglooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coffeeigloo.app/coffeeigloo";
+			};
+			name = Release;
+		};
+		FC022DF8229D3802004DF464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = coffeeiglooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.coffeeiglooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coffeeigloo;
+			};
+			name = Debug;
+		};
+		FC022DF9229D3802004DF464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = coffeeiglooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.coffeeiglooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coffeeigloo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC022DC4229D3801004DF464 /* Build configuration list for PBXProject "coffeeigloo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC022DEF229D3802004DF464 /* Debug */,
+				FC022DF0229D3802004DF464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC022DF1229D3802004DF464 /* Build configuration list for PBXNativeTarget "coffeeigloo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC022DF2229D3802004DF464 /* Debug */,
+				FC022DF3229D3802004DF464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC022DF4229D3802004DF464 /* Build configuration list for PBXNativeTarget "coffeeiglooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC022DF5229D3802004DF464 /* Debug */,
+				FC022DF6229D3802004DF464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC022DF7229D3802004DF464 /* Build configuration list for PBXNativeTarget "coffeeiglooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC022DF8229D3802004DF464 /* Debug */,
+				FC022DF9229D3802004DF464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC022DC1229D3801004DF464 /* Project object */;
+}
